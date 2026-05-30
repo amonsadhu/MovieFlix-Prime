@@ -43,7 +43,7 @@ similarity = pickle.load(open("similarity.pkl", "rb"))
 
 def fetch_poster(movie_name):
 
-    api_key = "f78e02596f4f2681bc7db42dd2836f36"
+    api_key = "abc"
 
     # Remove year from MovieLens titles
     movie_name = movie_name.split("(")[0].strip()
