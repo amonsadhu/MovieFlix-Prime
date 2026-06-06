@@ -1,24 +1,29 @@
-# AI Movie Recommendation System
+# 🎬 MovieFlix Prime
 
-A movie recommendation system built using Machine Learning and Streamlit.
+A content-based Movie Recommendation System built using Python, Scikit-Learn, Pandas, and Streamlit. The system recommends similar movies based on metadata and cosine similarity.
+
+## 🚀 Live Demo
+
+Hugging Face Deployment: https://amoooooooooon-movieflix-prime.hf.space
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Streamlit
+* TMDB API
 
 ## Features
 
-- Movie recommendations
-- Similarity based recommendation engine
-- TMDB movie posters
-- Interactive Streamlit UI
+* Movie recommendations based on content similarity
+* Movie poster integration using TMDB API
+* Interactive Streamlit web interface
+* Cloud deployment using Hugging Face Spaces
 
-## Technologies Used
+## Dataset
 
-- Python
-- Pandas
-- Scikit-Learn
-- Streamlit
-- TMDB API
-
-## Run
-
-```bash
-streamlit run app.py
-```
+* TMDB Movies Dataset
+* ~9,700+ movies processed
+* Optimized similarity matrix for deployment
